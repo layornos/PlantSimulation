@@ -7,12 +7,12 @@ import (
 	"github.com/layornos/godes"
 )
 
-var arrivalOfItems = godes.NewExpDistr(true)
-var transportItemToCheck = godes.NewNormalDistr(true)
-var checkOfItem = godes.NewNormalDistr(true)
-var repairOfRobot = godes.NewExpDistr(true)
-var repairTimeOfOneRobot = godes.NewNormalDistr(true)
-var itemIntact = godes.NewNormalDistr(true)
+var arrivalOfItems = godes.NewExpDistr(IS_DETERMINISTIC)
+var transportItemToCheck = godes.NewNormalDistr(IS_DETERMINISTIC)
+var checkOfItem = godes.NewNormalDistr(IS_DETERMINISTIC)
+var repairOfRobot = godes.NewExpDistr(IS_DETERMINISTIC)
+var repairTimeOfOneRobot = godes.NewNormalDistr(IS_DETERMINISTIC)
+var itemIntact = godes.NewNormalDistr(IS_DETERMINISTIC)
 
 var robotAvailableSwt = godes.NewBooleanControl()
 var operatorAvailableSwt = godes.NewBooleanControl()

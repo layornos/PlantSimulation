@@ -2,10 +2,11 @@ package main
 
 //Input Parameters
 const (
-	MAX_ROBOTS      = 3
-	MAX_OPERATORS   = 5
-	MAX_MAINTAINERS = 3
-	MAX_QS          = 1
+	IS_DETERMINISTIC = true
+	MAX_ROBOTS       = 3
+	MAX_OPERATORS    = 5
+	MAX_MAINTAINERS  = 3
+	MAX_QS           = 1
 
 	// How long to wait for the n * 100th item
 	ARRIVAL_INTERVAL = 10
